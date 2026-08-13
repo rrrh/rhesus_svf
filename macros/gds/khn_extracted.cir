@@ -1,0 +1,144 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 13/03/2026 23:29
+
+.SUBCKT khn_biquad VSS vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 sc_clk
+M$1 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 vin|vout VSS sg13_lv_nmos
++ L=0.13u W=38u AS=14.44p AD=14.44p PS=90.44u PD=90.44u
+M$4 \$10 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 vin|vout VSS sg13_lv_nmos L=0.13u
++ W=2u AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$6 \$11 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 vin|vout VSS sg13_lv_nmos L=0.13u
++ W=2u AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$9 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$12 VSS sg13_lv_nmos L=0.13u
++ W=2u AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$10 \$12 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$13 VSS sg13_lv_nmos L=0.13u W=2u
++ AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$11 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$13 VSS sg13_lv_nmos L=0.13u
++ W=2u AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$12 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$14 VSS sg13_lv_nmos L=0.13u
++ W=2u AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$13 \$14 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$15 VSS sg13_lv_nmos L=0.13u W=2u
++ AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$14 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$15 VSS sg13_lv_nmos L=0.13u
++ W=4u AS=1.52p AD=1.52p PS=9.52u PD=9.52u
+M$15 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$16 VSS sg13_lv_nmos L=0.13u
++ W=2u AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$16 \$16 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$15 VSS sg13_lv_nmos L=0.13u W=2u
++ AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$18 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$17 VSS sg13_lv_nmos L=0.13u
++ W=2u AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$19 \$17 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3
++ VSS sg13_lv_nmos L=0.13u W=2u AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$20 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3
++ VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 VSS sg13_lv_nmos L=0.13u W=2u AS=0.76p
++ AD=0.76p PS=4.76u PD=4.76u
+M$24 VSS VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3
++ VSS sg13_lv_nmos L=0.13u W=7u AS=3.15p AD=3.15p PS=20.3u PD=20.3u
+M$25 \$22 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 vin|vout VSS sg13_lv_nmos L=0.13u
++ W=2u AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$32 \$23 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 vin|vout VSS sg13_lv_nmos L=0.13u
++ W=2u AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$34 \$24 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 vin|vout VSS sg13_lv_nmos L=0.13u
++ W=2u AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$44 \$33 vin|vout \$36 VSS sg13_lv_nmos L=0.5u W=4u AS=1.52p AD=1.52p PS=8.76u
++ PD=8.76u
+M$45 VSS vin|vout vin|vout VSS sg13_lv_nmos L=0.5u W=2u AS=0.76p AD=0.76p
++ PS=4.76u PD=4.76u
+M$46 VSS vin|vout \$33 VSS sg13_lv_nmos L=0.5u W=2u AS=0.6856p AD=0.76p
++ PS=4.76u PD=4.76u
+M$47 \$33 vin|vout vin|vout VSS sg13_lv_nmos L=0.5u W=4u AS=1.52p AD=1.52p
++ PS=8.76u PD=8.76u
+M$48 \$34 vin|vout \$37 VSS sg13_lv_nmos L=0.5u W=4u AS=1.52p AD=1.52p PS=8.76u
++ PD=8.76u
+M$49 VSS vin|vout \$34 VSS sg13_lv_nmos L=0.5u W=2u AS=0.76p AD=0.76p PS=4.76u
++ PD=4.76u
+M$50 \$34 vin|vout vin|vout VSS sg13_lv_nmos L=0.5u W=4u AS=1.52p AD=1.52p
++ PS=8.76u PD=8.76u
+M$51 \$35 vin|vout \$38 VSS sg13_lv_nmos L=0.5u W=4u AS=1.52p AD=1.52p PS=8.76u
++ PD=8.76u
+M$52 VSS vin|vout \$35 VSS sg13_lv_nmos L=0.5u W=2u AS=0.76p AD=0.76p PS=4.76u
++ PD=4.76u
+M$53 \$35 vin|vout vin|vout VSS sg13_lv_nmos L=0.5u W=4u AS=1.52p AD=1.52p
++ PS=8.76u PD=8.76u
+M$54 VSS sc_clk \$30 VSS sg13_lv_nmos L=0.13u W=1u AS=0.7p AD=0.7p PS=3.4u
++ PD=3.4u
+M$55 VSS \$30 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 VSS sg13_lv_nmos L=0.13u W=1u
++ AS=0.7p AD=0.7p PS=3.4u PD=3.4u
+M$56 VSS VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$31 VSS sg13_lv_nmos L=0.13u W=1u
++ AS=0.7p AD=0.7p PS=3.4u PD=3.4u
+M$57 VSS \$31 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 VSS sg13_lv_nmos L=0.13u W=1u
++ AS=0.7p AD=0.7p PS=3.4u PD=3.4u
+M$58 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 vin|vout \$19 sg13_lv_pmos
++ L=0.13u W=24u AS=9.12p AD=9.12p PS=52.56u PD=52.56u
+M$61 \$10 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 vin|vout \$19 sg13_lv_pmos L=0.13u
++ W=4u AS=1.52p AD=1.52p PS=8.76u PD=8.76u
+M$63 \$11 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 vin|vout \$19 sg13_lv_pmos L=0.13u
++ W=4u AS=1.52p AD=1.52p PS=8.76u PD=8.76u
+M$66 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$12 \$19 sg13_lv_pmos L=0.13u
++ W=4u AS=1.52p AD=1.52p PS=8.76u PD=8.76u
+M$67 \$12 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$13 \$19 sg13_lv_pmos L=0.13u W=4u
++ AS=1.52p AD=1.52p PS=8.76u PD=8.76u
+M$68 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$13 \$19 sg13_lv_pmos L=0.13u
++ W=4u AS=1.52p AD=1.52p PS=8.76u PD=8.76u
+M$69 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$14 \$19 sg13_lv_pmos L=0.13u
++ W=4u AS=1.52p AD=1.52p PS=8.76u PD=8.76u
+M$70 \$14 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$15 \$19 sg13_lv_pmos L=0.13u W=4u
++ AS=1.52p AD=1.52p PS=8.76u PD=8.76u
+M$71 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$15 \$19 sg13_lv_pmos L=0.13u
++ W=8u AS=3.04p AD=3.04p PS=17.52u PD=17.52u
+M$72 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$16 \$19 sg13_lv_pmos L=0.13u
++ W=4u AS=1.52p AD=1.52p PS=8.76u PD=8.76u
+M$73 \$16 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$15 \$19 sg13_lv_pmos L=0.13u W=4u
++ AS=1.52p AD=1.52p PS=8.76u PD=8.76u
+M$75 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$17 \$19 sg13_lv_pmos L=0.13u
++ W=4u AS=1.52p AD=1.52p PS=8.76u PD=8.76u
+M$76 \$17 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3
++ \$19 sg13_lv_pmos L=0.13u W=4u AS=1.52p AD=1.52p PS=8.76u PD=8.76u
+M$77 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3
++ VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$19 sg13_lv_pmos L=0.13u W=4u AS=1.52p
++ AD=1.52p PS=8.76u PD=8.76u
+M$78 vin|vout VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 vin|vout \$25 sg13_lv_pmos
++ L=0.13u W=52u AS=19.76p AD=19.76p PS=113.88u PD=113.88u
+M$81 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3
++ VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3
++ sg13_lv_pmos L=0.13u W=14u AS=6.3p AD=6.3p PS=34.3u PD=34.3u
+M$82 \$22 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 vin|vout \$25 sg13_lv_pmos L=0.13u
++ W=4u AS=1.52p AD=1.52p PS=8.76u PD=8.76u
+M$89 \$23 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 vin|vout \$25 sg13_lv_pmos L=0.13u
++ W=4u AS=1.52p AD=1.52p PS=8.76u PD=8.76u
+M$91 \$24 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 vin|vout \$25 sg13_lv_pmos L=0.13u
++ W=4u AS=1.52p AD=1.52p PS=8.76u PD=8.76u
+M$101 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$36 \$36 \$40 sg13_lv_pmos L=0.5u W=2u
++ AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$102 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 vin|vout vin|vout
++ VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 sg13_lv_pmos L=0.5u W=2u AS=0.76p AD=0.76p
++ PS=4.76u PD=4.76u
+M$103 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$36 vin|vout \$40 sg13_lv_pmos L=0.5u
++ W=2u AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$104 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$37 \$37 \$41 sg13_lv_pmos L=0.5u W=2u
++ AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$105 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$37 vin|vout \$41 sg13_lv_pmos L=0.5u
++ W=2u AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$106 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$38 \$38 \$42 sg13_lv_pmos L=0.5u W=2u
++ AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$107 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$38 vin|vout \$42 sg13_lv_pmos L=0.5u
++ W=2u AS=0.76p AD=0.76p PS=4.76u PD=4.76u
+M$108 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 sc_clk \$30 \$32 sg13_lv_pmos L=0.13u
++ W=2u AS=1.4p AD=1.4p PS=5.4u PD=5.4u
+M$109 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$30 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3
++ \$32 sg13_lv_pmos L=0.13u W=2u AS=1.4p AD=1.4p PS=5.4u PD=5.4u
+M$110 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$31
++ \$32 sg13_lv_pmos L=0.13u W=2u AS=1.4p AD=1.4p PS=5.4u PD=5.4u
+M$111 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3 \$31 VDD|en_bp|en_hp|en_lp|q0|q1|q2|q3
++ \$32 sg13_lv_pmos L=0.13u W=2u AS=1.4p AD=1.4p PS=5.4u PD=5.4u
+C$112 \$27 vin|vout cap_cmim w=23.1u l=23.1u A=533.61p P=92.4u m=1
+C$113 \$6 vin|vout cap_cmim w=7u l=7u A=49p P=28u m=1
+C$114 \$7 vin|vout cap_cmim w=7u l=7u A=49p P=28u m=1
+C$115 \$3 vin|vout cap_cmim w=7u l=7u A=49p P=28u m=1
+C$116 \$26 vin|vout cap_cmim w=23.1u l=23.1u A=533.61p P=92.4u m=1
+C$117 \$4 vin|vout cap_cmim w=7u l=7u A=49p P=28u m=1
+C$118 \$8 vin|vout cap_cmim w=7u l=7u A=49p P=28u m=1
+C$119 \$5 vin|vout cap_cmim w=7u l=7u A=49p P=28u m=1
+C$120 \$18 vin|vout cap_cmim w=1.805u l=1.805u A=3.258025p P=7.22u m=1
+C$121 \$21 vin|vout cap_cmim w=3.615u l=3.615u A=13.068225p P=14.46u m=1
+C$122 \$20 vin|vout cap_cmim w=2.555u l=2.555u A=6.528025p P=10.22u m=1
+C$123 \$28 vin|vout cap_cmim w=5.11u l=5.11u A=26.1121p P=20.44u m=1
+.ENDS khn_biquad

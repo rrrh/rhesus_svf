@@ -1,0 +1,11 @@
+# xschemrc for tiny_workspace analog schematics
+# Points to IHP SG13G2 PDK symbol library
+
+set PDK_ROOT /data/Projects/chip/IHP-Open-PDK
+set PDK ihp-sg13g2
+
+append XSCHEM_LIBRARY_PATH :/usr/share/xschem/xschem_library/devices
+append XSCHEM_LIBRARY_PATH :${PDK_ROOT}/${PDK}/libs.tech/xschem
+append XSCHEM_LIBRARY_PATH :[pwd]
+
+set netlist_dir $env(PWD)/simulations

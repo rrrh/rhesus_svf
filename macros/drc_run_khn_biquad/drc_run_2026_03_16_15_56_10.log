@@ -1,0 +1,11 @@
+16-Mar-2026 15:56:10 | INFO    | KLayout version detected: 0.30.4
+16-Mar-2026 15:56:10 | INFO    | Using DRC JSON file: /data/.ciel/ciel/ihp-sg13g2/versions/c4b8b4e5e7a05f375cca3815d51b3a37721fbf5c/ihp-sg13g2/libs.tech/klayout/python/sg13g2_pycell_lib/sg13g2_tech_mod.json
+16-Mar-2026 15:56:10 | INFO    | Running IHP-SG13G2 main checks on design /data/Projects/tiny_workspace/macros/gds/khn_biquad.gds, topcell: khn_biquad
+16-Mar-2026 15:56:13 | INFO    | Running IHP-SG13G2 sg13g2_maximal checks on design /data/Projects/tiny_workspace/macros/gds/khn_biquad.gds, topcell: khn_biquad
+16-Mar-2026 15:56:18 | INFO    | Completed running Sg13g2_maximal checks.
+16-Mar-2026 15:56:18 | ERROR   | ==================================================================================
+16-Mar-2026 15:56:18 | ERROR   | ❌ --- KLayout DRC Check Failed: Violations were detected in the layout. --- ❌
+16-Mar-2026 15:56:18 | ERROR   | ==================================================================================
+16-Mar-2026 15:56:18 | ERROR   | Violated rules are : {'pSD.d', 'M3.b', 'Act.b', 'V3.b', 'LU.a', 'NW.c', 'pSD.f', 'NW.d', 'NW.e', 'pSD.g', 'pSD.j', 'Cnt.g', 'LU.b', 'M1.b', 'pSD.e', 'V2.b', 'M2.b', 'V4.b', 'pSD.b', 'M4.b'}
+
+16-Mar-2026 15:56:18 | INFO    | Total DRC Run time: 8.79 seconds (including execution, analysis, and reporting)

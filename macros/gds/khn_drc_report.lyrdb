@@ -1,0 +1,5099 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>Main DRC Run Report at</description>
+ <original-file/>
+ <generator>drc: script='/data/Projects/chip/IHP-Open-PDK/ihp-sg13g2/libs.tech/klayout/tech/drc/ihp-sg13g2.drc'</generator>
+ <top-cell>khn_biquad</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>NW.b</name>
+   <description>5.1.NW.b : Min. NWell space or notch (same net). NWell regions separated by less than this value will be merged. is 0.62 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>NW.b1</name>
+   <description>5.1.NW.b1 : Min. PWell width between NWell regions (different net)  is 1.8 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PWB.e</name>
+   <description>5.2. PWB.e Min. PWell:block space to (N+Activ not inside ThickGateOx) in PWell is 0.31 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PWB.e1</name>
+   <description>5.2. PWB.e1 Min. PWell:block space to (N+Activ inside ThickGateOx) in PWell is 0.62 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PWB.f</name>
+   <description>5.2. PWB.f Min. PWell:block space to (P+Activ not inside ThickGateOx) in PWell is 0.24 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PWB.f1</name>
+   <description>5.2. PWB.f1 Min. PWell:block space to (P+Activ inside ThickGateOx) in PWell 0.62 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>NBL.b</name>
+   <description>5.3.NBL.b : Min. nBuLay space or notch (same net) is 1.5 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>NBL.c</name>
+   <description>5.3.NBL.c : Min. PWell width between nBuLay regions (different net) is 3.2 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>NBL.d</name>
+   <description>5.3.NBL.d : Min. PWell width between nBuLay and NWell (different net) is 2.2 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>NBL.e</name>
+   <description>5.3.NBL.e : Min. nBuLay space to unrelated N+Activ is 1.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>NBL.f</name>
+   <description>5.3.NBL.f : Min. nBuLay space to unrelated P+Activ is 0.5 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Act.a</name>
+   <description>5.5. Act.a : Min. Activ width : 0.15 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Act.b</name>
+   <description>5.5. Act.b : Min. Activ space or notch: 0.21 µm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>AFil.c1</name>
+   <description>5.6. AFil.c1 Min. Activ:filler space to Activ is 0.42 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>AFil.c</name>
+   <description>5.6. AFil.c Min. Activ:filler space to Cont, GatPoly is 1.1 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>AFil.d</name>
+   <description>5.6. AFil.d Min. Activ:filler space to NWell, nBuLay is 1.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>AFil.e</name>
+   <description>5.6. AFil.e Min. Activ:filler space to TRANS is 1.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>AFil.j</name>
+   <description>5.6. AFil.j Min. nSD:block and SalBlock enclosure of Activ:filler inside PWell:block is 0.25 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TGO.f</name>
+   <description>5.7. TGO.f : Min. ThickGateOx width: 0.86 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Gat.a</name>
+   <description>5.8. Gat.a : Min. GatPoly width: 0.13 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Gat.b</name>
+   <description>5.8. Gat.b :Min. GatPoly space or notch: 0.18 µm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Gat.d</name>
+   <description>5.8. Gat.d :Min. GatPoly space to Activ: 0.07 µm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Gat.a1</name>
+   <description>5.8. Gat.a1 Min. GatPoly width for channel length of 1.2V NFET is 0.13 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Gat.a2</name>
+   <description>5.8. Gat.a2 Min. GatPoly width for channel length of 1.2V PFET is 0.13 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Gat.g</name>
+   <description>5.8. Gat.g Min. GatPoly width for 45-degree bent shapes if the bend GatPoly,length is &gt; 0.39 µm is 0.16 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>GFil.d</name>
+   <description>5.9. GFil.d : Min. GatPoly:filler space to Activ, GatPoly, Cont, pSD, nSD:block, SalBlock is 1.1 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>GFil.e</name>
+   <description>5.9. GFil.e Min. GatPoly:filler space to NWell, nBuLay is 1.1 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>GFil.i</name>
+   <description>5.9. GFil.i Max. GatPoly:nofill area (µm²) is 400.0 um x 400.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>pSD.c1</name>
+   <description>5.10. pSD.c1 Min. pSD enclosure of P+Activ in PWell is 0.03 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Cnt.a</name>
+   <description>5.14. Cnt.a : Min. and max. Cont width: 0.16 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Cnt.b</name>
+   <description>5.14. Cnt.b : Min. Cont space: 0.18 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Cnt.c</name>
+   <description>5.14. Cnt.c Min. Activ enclosure of Cont is 0.07 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Cnt.c.digibnd</name>
+   <description>8.1.2. Cnt.c.digibnd Min. Activ enclosure of Cont (Inside DigiBnd) is 0.05 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Cnt.d</name>
+   <description>5.14. Cnt.d Min. GatPoly enclosure of Cont is 0.07 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Cnt.e</name>
+   <description>5.14. Cnt.e Min. Cont on GatPoly space to Activ is 0.14 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Cnt.g1</name>
+   <description>5.14. Cnt.g1 Min. pSD space to Cont on nSD-Activ is 0.09 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Cnt.g2</name>
+   <description>5.14. Cnt.g2 Min. pSD overlap of Cont on pSD-Activ is 0.09 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CntB.b1</name>
+   <description>5.15. CntB.b1 Min. ContBar space with common run &gt; 5.0 µm is 0.36 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CntB.h1</name>
+   <description>5.15. CntB.h1 Min. Metal1 enclosure of ContBar is 0.05 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>npn13G2.bR</name>
+   <description>6.1.3. npn13G2.bR : Max. recommended total number of npn13G2 emitters per chip is 4000</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>npn13G2L.cR</name>
+   <description>6.1.3. npn13G2L.cR : Max. recommended total number of npn13G2L emitters per chip is 800</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>npn13G2V.cR</name>
+   <description>6.1.3. npn13G2V.cR : Max. recommended total number of npn13G2V emitters per chip is 800</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Sdiod.d</name>
+   <description>6.7. Sdiod.d : Min. and max. ContBar width inside nBuLay is 0.3 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Sdiod.e</name>
+   <description>6.7. Sdiod.e : Min. and max. ContBar length inside nBuLay is 1.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>LU.b</name>
+   <description>7.2. LU.b : Max. space from any portion of N+Activ inside PWell to an pSD-PWell tie is 20.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M1.a</name>
+   <description>5.16. M1.a: Min. Metal1 width: 0.16 μm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M1.b</name>
+   <description>5.16. M1.b: Min. Metal1 space or notch: 0.18μm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M1.e</name>
+   <description>5.16. M1.e Min. space of Metal1 lines if, at least one line is wider than 0.15 µm and the parallel run is more than 1.0 µm is 0.22 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M1.f</name>
+   <description>5.16. M1.f Min. space of Metal1 lines if, at least one line is wider than 5.0 µm and the parallel run is more than 10.0 µm is 0.6 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M1.g</name>
+   <description>5.16. M1.g Min. 45-degree bent Metal1 width if the bent metal length is &gt; 0.5 µm is 0.2 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M1.i</name>
+   <description>5.16. M1.i Min. space of Metal1 lines of which at least one is bent by 45-degree is 0.22 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2.a</name>
+   <description>5.17. M2.a: Min. Metal2 width: 0.2 μm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2.b</name>
+   <description>5.17. M2.b: Min. Metal2 space or notch: 0.21 μm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2.e</name>
+   <description>5.17. M2.e Min. space of Metal2 lines if, at least one line is wider than 0.195 µm and the parallel run is more than 1.0 µm is 0.24 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2.f</name>
+   <description>5.17. M2.f Min. space of Metal2 lines if, at least one line is wider than 5.0 µm and the parallel run is more than 10.0 µm is 0.6 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2.g</name>
+   <description>5.17. M2.g Min. 45-degree bent Metal2 width if the bent metal length is &gt; 0.5 µm is 0.24 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2.i</name>
+   <description>5.17. M2.i Min. space of Metal2 lines of which at least one is bent by 45-degree is 0.24 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M3.a</name>
+   <description>5.17. M3.a: Min. Metal3 width: 0.2 μm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M3.b</name>
+   <description>5.17. M3.b: Min. Metal3 space or notch: 0.21 μm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M3.e</name>
+   <description>5.17. M3.e Min. space of Metal3 lines if, at least one line is wider than 0.195 µm and the parallel run is more than 1.0 µm is 0.24 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M3.f</name>
+   <description>5.17. M3.f Min. space of Metal3 lines if, at least one line is wider than 5.0 µm and the parallel run is more than 10.0 µm is 0.6 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M3.g</name>
+   <description>5.17. M3.g Min. 45-degree bent Metal3 width if the bent metal length is &gt; 0.5 µm is 0.24 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M3.i</name>
+   <description>5.17. M3.i Min. space of Metal3 lines of which at least one is bent by 45-degree is 0.24 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M4.a</name>
+   <description>5.17. M4.a: Min. Metal4 width: 0.2 μm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M4.b</name>
+   <description>5.17. M4.b: Min. Metal4 space or notch: 0.21 μm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M4.e</name>
+   <description>5.17. M4.e Min. space of Metal4 lines if, at least one line is wider than 0.195 µm and the parallel run is more than 1.0 µm is 0.24 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M4.f</name>
+   <description>5.17. M4.f Min. space of Metal4 lines if, at least one line is wider than 5.0 µm and the parallel run is more than 10.0 µm is 0.6 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M4.g</name>
+   <description>5.17. M4.g Min. 45-degree bent Metal4 width if the bent metal length is &gt; 0.5 µm is 0.24 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M4.i</name>
+   <description>5.17. M4.i Min. space of Metal4 lines of which at least one is bent by 45-degree is 0.24 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M5.a</name>
+   <description>5.17. M5.a: Min. Metal5 width: 0.2 μm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M5.b</name>
+   <description>5.17. M5.b: Min. Metal5 space or notch: 0.21 μm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M5.e</name>
+   <description>5.17. M5.e Min. space of Metal5 lines if, at least one line is wider than 0.195 µm and the parallel run is more than 1.0 µm is 0.24 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M5.f</name>
+   <description>5.17. M5.f Min. space of Metal5 lines if, at least one line is wider than 5.0 µm and the parallel run is more than 10.0 µm is 0.6 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M5.g</name>
+   <description>5.17. M5.g Min. 45-degree bent Metal5 width if the bent metal length is &gt; 0.5 µm is 0.24 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M5.i</name>
+   <description>5.17. M5.i Min. space of Metal5 lines of which at least one is bent by 45-degree is 0.24 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M1Fil.c</name>
+   <description>5.18. M1Fil.c : Min. Metal1:filler space to Metal1 is 0.42 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M1Fil.a2</name>
+   <description>5.18. M1Fil.a2 : Max. Metal1:filler width is 5.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2Fil.c</name>
+   <description>5.18. M2Fil.c : Min. Metal2:filler space to Metal2 is 0.42 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2Fil.a2</name>
+   <description>5.18. M2Fil.a2 : Max. Metal2:filler width is 5.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M3Fil.c</name>
+   <description>5.18. M3Fil.c : Min. Metal3:filler space to Metal3 is 0.42 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M3Fil.a2</name>
+   <description>5.18. M3Fil.a2 : Max. Metal3:filler width is 5.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M4Fil.c</name>
+   <description>5.18. M4Fil.c : Min. Metal4:filler space to Metal4 is 0.42 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M4Fil.a2</name>
+   <description>5.18. M4Fil.a2 : Max. Metal4:filler width is 5.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M5Fil.c</name>
+   <description>5.18. M5Fil.c : Min. Metal5:filler space to Metal5 is 0.42 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M5Fil.a2</name>
+   <description>5.18. M5Fil.a2 : Max. Metal5:filler width is 5.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V1.a</name>
+   <description>5.19. V1.a : Min. and max. Via1 width: 0.19 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V1.b</name>
+   <description>5.19. V1.b : Min. Via1 space: 0.22 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V1.c</name>
+   <description>5.19.  V1.c Min. Metal1 enclosure of Via1 is 0.01 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V2.a</name>
+   <description>5.20. V2.a : Min. and max. Via2 width: 0.19 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V2.b</name>
+   <description>5.20. V2.b : Min. Via2 space: 0.22 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V2.c</name>
+   <description>5.20. V2.c : Min. Metal2 enclosure of Via2 is 0.005 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V3.a</name>
+   <description>5.20. V3.a : Min. and max. Via3 width: 0.19 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V3.b</name>
+   <description>5.20. V3.b : Min. Via3 space: 0.22 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V3.c</name>
+   <description>5.20. V3.c : Min. Metal3 enclosure of Via3 is 0.005 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V4.a</name>
+   <description>5.20. V4.a : Min. and max. Via4 width: 0.19 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V4.b</name>
+   <description>5.20. V4.b : Min. Via4 space: 0.22 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V4.c</name>
+   <description>5.20. V4.c : Min. Metal4 enclosure of Via4 is 0.005 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TV1.a</name>
+   <description>5.21. TV1.a : Min. and max. TopVia1 width: 0.42 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TV1.b</name>
+   <description>5.21. TV1.b : Min. TopVia1 space: 0.42 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TV1.c</name>
+   <description>5.21. TV1.c : Min. Metal5 enclosure of TopVia1 is 0.1 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TV1.d</name>
+   <description>5.21. TV1.d : Min. TopMetal1 enclosure of TopVia1 is 0.42 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM1.a</name>
+   <description>5.22. TM1.a: Min. TopMetal1 width: 1.64 μm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM1.b</name>
+   <description>5.22. TM1.b: Min. TopMetal1 space or notch: 1.64 μm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM1Fil.c</name>
+   <description>5.23. TM1Fil.c : Min. TopMetal1:filler space to TopMetal1 is 3.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM1Fil.a1</name>
+   <description>5.23. TM1Fil.a1 : Max. TopMetal1:filler width is 10.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TV2.a</name>
+   <description>5.24. TV2.a : Min. and max. TopVia2 width: 0.9 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TV2.b</name>
+   <description>5.24. TV2.b : Min. TopVia2 space: 1.06 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TV2.c</name>
+   <description>5.24. TV2.c : Min. TopMetal1 enclosure of TopVia2 is 0.5 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TV2.d</name>
+   <description>5.24. TV2.d : Min. TopMetal2 enclosure of TopVia2 is 0.5 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM2.a</name>
+   <description>5.25. TM2.a: Min. TopMetal2 width: 2.0 μm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM2.b</name>
+   <description>5.25. TM2.b: Min. TopMetal2 space or notch: 2.0 μm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM2.bR</name>
+   <description>5.25. TM2.bR : Min. space of TopMetal2 lines if, at least one line is wider than 2.5 µm
+                  and the parallel run is more than 50.0 µm is 5.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM2Fil.c</name>
+   <description>5.26. TM2Fil.c : Min. TopMetal2:filler space to TopMetal2 is 3.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM2Fil.a1</name>
+   <description>5.26. TM2Fil.a1 : Max. TopMetal2:filler width is 10.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pas.a</name>
+   <description>5.27. Pas.a:Min. Passiv width: 2.1 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pas.b</name>
+   <description>5.27. Pas.b: Min. Passiv space or notch: 3.5 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pas.c</name>
+   <description>5.27. Pas.c : Min. TopMetal2 enclosure of Passiv [Not checked outside of sealring (edge-seal-passive)] is 2.1 um </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Padc.a</name>
+   <description>6.9. Padc.a : CuPillarPad size is 35.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Padc.b</name>
+   <description>6.9. Padc.b : Min. CuPillarPad space is 40.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Padc.c</name>
+   <description>6.9. Padc.c : Min. TopMetal2 (within dfpad) enclosure of CuPillarPad is 7.5 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>padc.f</name>
+   <description>6.9.2. Padc.f: Allowed passivation opening shape Circle</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pad.m</name>
+   <description>6.9. Pad.m : SBumpPad and CuPillarPad in same layout not allowed</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pad.fR_M1</name>
+   <description>6.9. Pad.fR_M1 : Min. recommended M1 exit length is 7.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pad.fR_M2</name>
+   <description>6.9. Pad.fR_M2 : Min. recommended M2 exit length is 7.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pad.fR_M3</name>
+   <description>6.9. Pad.fR_M3 : Min. recommended M3 exit length is 7.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pad.fR_M4</name>
+   <description>6.9. Pad.fR_M4 : Min. recommended M4 exit length is 7.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pad.fR_M5</name>
+   <description>6.9. Pad.fR_M5 : Min. recommended M5 exit length is 7.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pad.fR_TM1</name>
+   <description>6.9. Pad.fR_TM1 : Min. recommended TM1 exit length is 7.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pad.fR_TM2</name>
+   <description>6.9. Pad.fR_TM2 : Min. recommended TM2 exit length is 7.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pad.i</name>
+   <description>6.9. Pad.i : dfpad without TopMetal2 not allowed</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Padb.a</name>
+   <description>6.9. Padb.a : SBumpPad size is 60.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Padb.b</name>
+   <description>6.9. Padb.b : Min. SBumpPad space is 70.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Padb.c</name>
+   <description>6.9. Padb.c : Min. TopMetal2 (within dfpad) enclosure of SBumpPad is 10.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>padb.f</name>
+   <description>6.9. Padb.f: Allowed passivation opening shape Octagon , Circle</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Padb.d</name>
+   <description>6.9. Padb.d : Min. SBumpPad space to EdgeSeal is 50.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Seal.n</name>
+   <description>6.10. seal.n : Sealring must be enclosed by an unbroken Passiv ring</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Seal.b_metal1</name>
+   <description>6.10. Seal.b_metal1 : Min. Activ space to EdgeSeal-metal1 is 4.9 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Seal.b_metal2</name>
+   <description>6.10. Seal.b_metal2 : Min. Activ space to EdgeSeal-metal2 is 4.9 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Seal.b_metal3</name>
+   <description>6.10. Seal.b_metal3 : Min. Activ space to EdgeSeal-metal3 is 4.9 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Seal.b_metal4</name>
+   <description>6.10. Seal.b_metal4 : Min. Activ space to EdgeSeal-metal4 is 4.9 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Seal.b_metal5</name>
+   <description>6.10. Seal.b_metal5 : Min. Activ space to EdgeSeal-metal5 is 4.9 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Seal.b_topmetal1</name>
+   <description>6.10. Seal.b_topmetal1 : Min. Activ space to EdgeSeal-topmetal1 is 4.9 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Seal.b_topmetal2</name>
+   <description>6.10. Seal.b_topmetal2 : Min. Activ space to EdgeSeal-topmetal2 is 4.9 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Seal.b_activ</name>
+   <description>6.10. Seal.b_activ : Min. Activ space to EdgeSeal-activ is 4.9 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Seal.b_psd</name>
+   <description>6.10. Seal.b_psd : Min. Activ space to EdgeSeal-psd is 4.9 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Seal.k</name>
+   <description>6.10. Seal.k : Min. EdgeSeal 45-degree corner length is 21.0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Seal.m</name>
+   <description>6.10. Seal.m : Only one sealring per chip allowed</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MIM.c</name>
+   <description>6.11. MIM.c : Min. Metal5 enclosure of MIM is 0.6 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MIM.d</name>
+   <description>6.11. MIM.d : Min. MIM enclosure of TopVia1 is 0.36 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Slt.e1_M1</name>
+   <description>7.3. Slt.e1_M1 : No M1:slit required on MIM</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Slt.e1_M2</name>
+   <description>7.3. Slt.e1_M2 : No M2:slit required on MIM</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Slt.e1_M3</name>
+   <description>7.3. Slt.e1_M3 : No M3:slit required on MIM</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Slt.e1_M4</name>
+   <description>7.3. Slt.e1_M4 : No M4:slit required on MIM</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Slt.e1_M5</name>
+   <description>7.3. Slt.e1_M5 : No M5:slit required on MIM</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Slt.e1_TM1</name>
+   <description>7.3. Slt.e1_TM1 : No TM1:slit required on MIM</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Slt.e1_TM2</name>
+   <description>7.3. Slt.e1_TM2 : No TM2:slit required on MIM</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>LBE.a</name>
+   <description>9.1. LBE.a: Min. LBE width: 100.0 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>LBE.b</name>
+   <description>9.1. LBE.b: Max. LBE width: 1500.0 µm.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>LBE.b1</name>
+   <description>9.1. LBE.b1: Max. LBE area (µm²): 250000.0 .um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>LBE.c</name>
+   <description>9.1. LBE.c: Min. LBE space or notch: 100.0 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>LBE.d</name>
+   <description>9.1. LBE.d: Min. LBE space to inner edge of EdgeSeal: 150.0 µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>LBE.h</name>
+   <description>9.1. LBE.h: No LBE ring allowed.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.a</name>
+   <description>Pin.a : 7.4. Pin.a: Min. activ enclosure of activ:pin = 0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.b</name>
+   <description>Pin.b : 7.4. Pin.b: Min. gatpoly enclosure of gatpoly:pin = 0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.e</name>
+   <description>Pin.e : 7.4. Pin.e: Min. metal1 enclosure of metal1:pin = 0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.f_M2</name>
+   <description>Pin.f_M2 : 7.4. Pin.f_M2: Min. metal2 enclosure of metal2:pin = 0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.f_M3</name>
+   <description>Pin.f_M3 : 7.4. Pin.f_M3: Min. metal3 enclosure of metal3:pin = 0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.f_M4</name>
+   <description>Pin.f_M4 : 7.4. Pin.f_M4: Min. metal4 enclosure of metal4:pin = 0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.f_M5</name>
+   <description>Pin.f_M5 : 7.4. Pin.f_M5: Min. metal5 enclosure of metal5:pin = 0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.g</name>
+   <description>Pin.g : 7.4. Pin.g: Min. topmetal1 enclosure of topmetal1:pin = 0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.h</name>
+   <description>Pin.h : 7.4. Pin.h: Min. topmetal2 enclosure of topmetal2:pin = 0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.biwind</name>
+   <description>forbidden.biwind : 3.2. biwind is forbidden in designs submitted for all 0.13 um techs.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.pemwind</name>
+   <description>forbidden.pemwind : 3.2. pemwind is forbidden in designs submitted for all 0.13 um techs.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.baspoly</name>
+   <description>forbidden.baspoly : 3.2. baspoly is forbidden in designs submitted for all 0.13 um techs.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.deepco</name>
+   <description>forbidden.deepco : 3.2. deepco is forbidden in designs submitted for all 0.13 um techs.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.pempoly</name>
+   <description>forbidden.pempoly : 3.2. pempoly is forbidden in designs submitted for all 0.13 um techs.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.empoly</name>
+   <description>forbidden.empoly : 3.2. empoly is forbidden in designs submitted for all 0.13 um techs.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.ldmos</name>
+   <description>forbidden.ldmos : 3.2. ldmos is forbidden in designs submitted for all 0.13 um techs.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.pbiwind</name>
+   <description>forbidden.pbiwind : 3.2. pbiwind is forbidden in designs submitted for all 0.13 um techs.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.nodrc</name>
+   <description>forbidden.nodrc : 3.2. nodrc is forbidden in designs submitted for all 0.13 um techs.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.flash</name>
+   <description>forbidden.flash : 3.2. flash is forbidden in designs submitted for all 0.13 um techs.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.colwind</name>
+   <description>forbidden.colwind : 3.2. colwind is forbidden in designs submitted for all 0.13 um techs.</description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>khn_biquad</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'NW.b1'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1.69,54.19;1.69,56.488)|(1.6,54.69;1.6,52.392)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'NW.b1'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1.92,29.539;1.92,31.81)|(1.6,33.581;1.6,31.31)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'NW.b1'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1.69,40.69;1.69,44.27)|(1.6,46.068;1.6,38.892)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'NBL.d'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2.92,29.55;2.92,30.81)/(1.6,32.57;1.6,31.31)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'NBL.d'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2.92,30.81;3.742,30.81)/(1.6,31.31;1.1,31.31)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.365,40.672;44.365,41.328)|(44.34,41.15;44.34,40.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.545,40.672;48.545,41.328)|(48.52,41.15;48.52,40.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.295,37.36;44.295,37.43)|(44.27,37.608;44.27,37.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.475,37.36;48.475,37.43)|(48.45,37.608;48.45,37.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (46.36,37.85;46.36,37.694)|(46.45,37.85;46.45,37.92)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (46.455,37.43;46.455,37.85)|(46.36,37.85;46.36,37.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (46.45,37.85;46.45,37.92)|(46.43,37.92;46.43,37.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (46.385,37.36;46.385,37.43)|(46.36,37.608;46.36,37.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (46.43,38.15;46.43,38.08)|(46.455,38.15;46.455,38.328)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (46.45,38.08;46.45,38.15)|(46.43,38.15;46.43,38.08)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.365,37.43;44.365,38.003)|(44.27,37.85;44.27,37.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (46.455,40.672;46.455,41.328)|(46.43,41.15;46.43,40.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.25,31.8;48.25,31.87)|(48.235,31.87;48.235,31.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.55,37.85;44.55,41.15)|(44.525,41.328;44.525,37.672)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.365,37.672;44.365,38.328)|(44.34,38.15;44.34,37.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.545,37.672;48.545,37.92)|(48.52,37.92;48.52,37.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (46.455,37.672;46.455,37.85)|(46.43,37.92;46.43,37.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (29.13,31.57;29.13,31.64)|(29.115,31.64;29.115,31.57)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (46.64,38.15;46.64,41.15)|(46.615,41.328;46.615,38.15)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.475,37.13;48.475,37.2)|(48.45,37.2;48.45,36.952)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.545,37.43;48.545,37.92)|(48.45,37.85;48.45,37.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (46.385,37.13;46.385,37.2)|(46.36,37.2;46.36,36.952)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.25,31.57;48.25,31.64)|(48.235,31.64;48.235,31.57)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (29.13,31.8;29.13,31.87)|(29.115,31.87;29.115,31.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.73,37.85;48.73,37.92)|(48.705,37.92;48.705,37.672)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.295,37.13;44.295,37.2)|(44.27,37.2;44.27,36.952)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.545,38.08;48.545,38.328)|(48.52,38.15;48.52,38.08)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.73,38.08;48.73,41.15)|(48.705,41.328;48.705,38.08)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (8.61,37.36;8.61,37.596)|(8.54,37.43;8.54,37.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (11.14,37.85;11.14,41.15)|(11.115,41.328;11.115,37.672)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (7.62,31.57;7.62,31.64)|(7.605,31.64;7.605,31.57)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.01,31.8;10.01,31.87)|(9.995,31.87;9.995,31.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.01,31.57;10.01,31.64)|(9.995,31.64;9.995,31.57)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (13.23,37.85;13.23,40.85)|(13.205,40.85;13.205,37.672)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (17.28,40.791;17.28,41.209)|(17.11,41.15;17.11,40.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.975,37.36;12.975,37.43)|(12.95,37.608;12.95,37.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.955,37.43;10.955,38.003)|(10.86,37.85;10.86,37.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.63,40.85;10.63,41.15)|(10.52,41.292;10.52,40.708)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.885,37.13;10.885,37.2)|(10.86,37.2;10.86,36.952)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (15.135,41.08;15.135,41.328)|(15.11,41.15;15.11,41.08)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (21.96,31.8;21.96,31.87)|(21.945,31.87;21.945,31.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (15.065,37.13;15.065,37.2)|(15.04,37.2;15.04,36.952)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (7.62,31.8;7.62,31.87)|(7.605,31.87;7.605,31.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (21.96,31.57;21.96,31.64)|(21.945,31.64;21.945,31.57)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (8.865,37.43;8.865,38.003)|(8.77,37.85;8.77,37.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (13.045,41.08;13.045,41.328)|(13.02,41.15;13.02,41.08)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.885,37.36;10.885,37.43)|(10.86,37.608;10.86,37.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (8.61,36.964;8.61,37.2)|(8.54,37.2;8.54,37.13)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (15.32,37.85;15.32,40.92)|(15.295,40.92;15.295,37.672)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (17.18,31.57;17.18,31.64)|(17.165,31.64;17.165,31.57)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (15.32,41.08;15.32,41.15)|(15.295,41.328;15.295,41.08)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (8.795,37.13;8.795,37.2)|(8.77,37.2;8.77,36.952)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (15.135,40.672;15.135,40.92)|(15.11,40.92;15.11,40.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.955,37.67;10.955,38.33)|(10.95,38.15;10.95,37.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.36,42.453;10.36,42.7)|(10.33,42.7;10.33,42.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (14.79,31.57;14.79,31.64)|(14.775,31.64;14.775,31.57)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (8.865,37.672;8.865,38.328)|(8.84,38.15;8.84,37.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.36,42.86;10.36,43.107)|(10.33,42.93;10.33,42.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (13.045,37.43;13.045,38.003)|(12.95,37.85;12.95,37.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.63,37.85;10.63,37.92)|(10.52,37.92;10.52,37.708)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (9.05,37.85;9.05,40.92)|(9.025,40.92;9.025,37.672)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.975,37.13;12.975,37.2)|(12.95,37.2;12.95,36.952)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (8.865,41.08;8.865,41.328)|(8.84,41.15;8.84,41.08)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (15.135,37.672;15.135,38.328)|(15.11,38.15;15.11,37.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.63,38.08;10.63,38.15)|(10.52,38.292;10.52,38.08)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (8.865,40.672;8.865,40.92)|(8.84,40.92;8.84,40.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (15.065,37.36;15.065,37.43)|(15.04,37.608;15.04,37.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (6.4,37.13;6.4,37.43)|(6.33,37.33;6.33,37.03)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (8.795,37.36;8.795,37.43)|(8.77,37.608;8.77,37.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (17.18,31.8;17.18,31.87)|(17.165,31.87;17.165,31.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (14.79,31.8;14.79,31.87)|(14.775,31.87;14.775,31.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (13.045,37.672;13.045,38.328)|(13.02,38.15;13.02,37.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (9.05,41.08;9.05,41.15)|(9.025,41.328;9.025,41.08)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.36,40.671;10.36,41.329)|(10.34,41.15;10.34,40.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (13.045,40.672;13.045,40.92)|(13.02,40.92;13.02,40.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (15.135,37.43;15.135,38.003)|(15.04,37.85;15.04,37.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.085,23.86;12.085,23.93)|(12.07,23.93;12.07,23.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (19.255,23.86;19.255,23.93)|(19.24,23.93;19.24,23.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (4.915,23.63;4.915,23.7)|(4.9,23.7;4.9,23.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (16.865,23.63;16.865,23.7)|(16.85,23.7;16.85,23.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (26.11,23.86;26.11,23.93)|(26.02,23.93;26.02,23.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (21.645,23.63;21.645,23.7)|(21.63,23.7;21.63,23.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (4.915,23.86;4.915,23.93)|(4.9,23.93;4.9,23.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (26.11,23.63;26.11,23.7)|(26.02,23.7;26.02,23.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (26.425,23.86;26.425,23.93)|(26.41,23.93;26.41,23.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (4.915,13.63;4.915,13.7)|(4.9,13.7;4.9,13.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (21.645,23.86;21.645,23.93)|(21.63,23.93;21.63,23.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (19.255,23.63;19.255,23.7)|(19.24,23.7;19.24,23.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (4.915,13.86;4.915,13.93)|(4.9,13.93;4.9,13.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.085,23.63;12.085,23.7)|(12.07,23.7;12.07,23.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (16.865,23.86;16.865,23.93)|(16.85,23.93;16.85,23.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (26.425,23.63;26.425,23.7)|(26.41,23.7;26.41,23.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (29.195,13.63;29.195,13.7)|(29.18,13.7;29.18,13.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (32.595,23.86;32.595,23.93)|(32.58,23.93;32.58,23.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (43.155,23.63;43.155,23.7)|(43.14,23.7;43.14,23.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (34.985,23.63;34.985,23.7)|(34.97,23.7;34.97,23.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (30.205,23.86;30.205,23.93)|(30.19,23.93;30.19,23.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (32.595,23.63;32.595,23.7)|(32.58,23.7;32.58,23.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (39.255,13.63;39.255,13.7)|(39.24,13.7;39.24,13.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (45.545,23.86;45.545,23.93)|(45.53,23.93;45.53,23.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (39.255,13.86;39.255,13.93)|(39.24,13.93;39.24,13.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (34.985,23.86;34.985,23.93)|(34.97,23.93;34.97,23.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (43.155,23.86;43.155,23.93)|(43.14,23.93;43.14,23.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (45.545,23.63;45.545,23.7)|(45.53,23.7;45.53,23.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (30.205,23.63;30.205,23.7)|(30.19,23.7;30.19,23.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (29.195,13.86;29.195,13.93)|(29.18,13.93;29.18,13.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (31.585,13.86;31.585,13.93)|(31.57,13.93;31.57,13.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (31.585,13.63;31.585,13.7)|(31.57,13.7;31.57,13.63)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (28.93,15.195;28.93,15.905)|(28.81,16.077;28.81,15.023)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (45.58,32.995;45.58,34.805)|(45.54,34.805;45.54,32.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (28.895,14.805;28.895,15.195)|(28.81,15.387;28.81,14.613)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.38,26.81;12.38,35.305)|(12.28,35.49;12.28,26.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (28.99,16.295;28.99,24.913)|(28.81,24.805;28.81,16.187)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (28.93,13.975;28.93,14.805)|(28.81,14.977;28.81,13.803)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (49.9,33.105;49.9,33.895)|(49.835,33.695;49.835,33.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (49.9,31.779;49.9,33.441)|(49.74,33.305;49.74,31.915)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (39.255,33.305;39.255,33.695)|(39.25,33.905;39.25,33.095)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (45.85,32.995;45.85,36.305)|(45.78,36.305;45.78,32.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.025,36.195;48.025,36.133)|(48.145,36.305;48.145,36.367)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (49.9,33.572;49.9,37.928)|(49.73,37.805;49.73,33.695)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (39.35,33.695;39.35,35.305)|(39.25,35.305;39.25,33.51)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (47.966,36.195;48.025,36.195)|(48.204,36.305;48.145,36.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (49.9,37.609;49.9,38.391)|(49.825,38.195;49.825,37.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.285,35.305;12.285,35.695)|(12.28,35.905;12.28,35.095)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.08,55.129;12.08,55.871)|(11.965,55.695;11.965,55.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (16.86,48.007;16.86,48.553)|(16.665,48.475;16.665,48.085)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (11.87,56.805;11.87,56.629)|(11.985,56.805;11.985,56.981)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2.875,44.305;2.875,44.695)|(2.825,44.695;2.825,44.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.08,56.629;12.08,56.805)|(11.965,56.981;11.965,56.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.455,48.359;12.455,48.695)|(12.28,48.811;12.28,48.475)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.455,48.305;12.455,48.679)|(12.405,48.475;12.405,48.101)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.455,55.305;12.455,55.695)|(12.28,55.811;12.28,55.189)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (3.375,38.305;3.375,38.695)|(3.265,38.695;3.265,38.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (3.47,38.259;3.47,38.305)|(3.265,38.351;3.265,38.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (16.86,44.227;16.86,44.773)|(16.665,44.695;16.665,44.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2.97,44.153;2.97,44.305)|(2.825,44.457;2.825,44.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2.875,44.543;2.875,44.695)|(2.73,44.847;2.73,44.695)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (3.375,38.649;3.375,38.695)|(3.17,38.741;3.17,38.695)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (11.985,56.805;11.985,57.195)|(11.965,57.195;11.965,56.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (19.375,48.305;19.375,48.679)|(19.325,48.475;19.325,48.101)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (23,15.102;23,15.898)|(22.945,15.695;22.945,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (26.16,16.295;26.16,23.585)|(25.97,23.585;25.97,16.206)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (17.846,15.195;17.965,15.195)|(18.144,15.305;18.025,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.45,15.695;10.45,21.525)|(10.26,21.614;10.26,15.695)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (21.855,27.99;21.855,28.38)|(21.675,28.395;21.675,28.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.2,14.795;10.295,14.795)|(10.295,14.805;10.2,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (17.065,15.182;17.065,15.195)|(16.895,15.318;16.895,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (17.065,15.195;17.074,15.195)|(16.895,15.305;16.886,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (28.835,13.585;28.835,13.975)|(28.81,14.184;28.81,13.376)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (4.555,13.585;4.555,13.975)|(4.355,13.975;4.355,13.585)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (7.515,24.805;7.515,25.195)|(7.395,25.195;7.395,24.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (9.905,14.795;10,14.795)|(10,14.805;9.905,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (20.355,15.195;20.355,15.104)|(20.415,15.305;20.415,15.396)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.355,21.525;10.355,21.915)|(10.26,22.102;10.26,21.338)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (14.685,24.805;14.685,25.195)|(14.565,25.195;14.565,24.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (5.125,14.805;5.125,15.195)|(5.005,15.195;5.005,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (17.575,15.101;17.575,15.195)|(17.525,15.399;17.525,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (7.515,14.805;7.515,15.195)|(7.395,15.195;7.395,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (9.905,15.195;10.295,15.195)|(10.474,15.305;9.965,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (17.065,15.195;17.455,15.195)|(17.525,15.305;17.135,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (7.575,16.295;7.67,16.295)|(7.67,16.42;7.515,16.42)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.795,14.805;12.795,15.195)|(12.675,15.195;12.675,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (23,15.548;23,31.672)|(22.85,31.525;22.85,15.695)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (27.895,15.905;27.895,16.295)|(27.75,16.447;27.75,15.753)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2.735,15.195;3.125,15.195)|(2.955,15.305;2.565,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (23,31.322;23,32.118)|(22.945,31.915;22.945,31.525)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2.735,14.805;2.735,15.195)|(2.615,15.195;2.615,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2.386,15.195;2.615,15.195)|(2.794,15.305;2.565,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (26.065,15.905;26.065,16.295)|(25.97,16.482;25.97,15.718)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (17.575,14.805;17.575,15.195)|(17.455,15.195;17.455,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (19.965,14.805;19.965,15.195)|(19.845,15.195;19.845,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (28.835,15.905;28.835,16.295)|(28.81,16.504;28.81,15.696)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (27.99,15.153;27.99,15.847)|(27.845,15.695;27.845,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (17.575,15.195;17.704,15.195)|(17.525,15.305;17.396,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (5.125,15.82;5.125,16.21)|(4.945,16.295;4.945,15.905)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (7.87,16.295;7.965,16.295)|(7.905,16.42;7.87,16.42)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (20.236,15.195;20.355,15.195)|(20.534,15.305;20.415,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (17.965,15.195;17.965,15.104)|(18.025,15.305;18.025,15.396)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (21.855,24.805;21.855,25.195)|(21.735,25.195;21.735,24.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.38,26.395;12.38,27.205)|(12.375,26.995;12.375,26.605)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (42.126,15.195;42.245,15.195)|(42.424,15.305;42.305,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (42.795,23.585;42.795,23.975)|(42.595,23.975;42.595,23.585)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (38.955,15.195;38.99,15.195)|(38.99,15.305;38.835,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (54.255,21.155;54.35,21.155)|(54.35,21.265;54.255,21.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (30,14.759;30,15.241)|(29.795,15.195;29.795,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (32.39,14.759;32.39,15.241)|(32.185,15.195;32.185,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (31.285,15.195;31.32,15.195)|(31.32,15.305;31.106,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (31.57,21.356;31.57,22.084)|(31.445,21.915;31.445,21.525)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (31.795,15.195;32.044,15.195)|(31.865,15.305;31.616,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.145,24.805;48.145,25.195)|(48.025,25.195;48.025,24.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (33.675,15.195;34.014,15.195)|(33.835,15.305;33.496,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (34.78,14.759;34.78,15.241)|(34.575,15.195;34.575,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (39.465,14.805;39.465,15.195)|(39.345,15.195;39.345,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (32.235,15.905;32.235,16.295)|(32.055,16.295;32.055,15.905)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (30.415,24.805;30.415,25.195)|(30.295,25.195;30.295,24.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (42.245,15.195;42.245,15.104)|(42.305,15.305;42.305,15.396)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (31.52,15.195;31.675,15.195)|(31.854,15.305;31.52,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (46.635,14.805;46.635,15.195)|(46.515,15.195;46.515,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.345,12.595;53.44,12.595)|(53.44,12.705;53.345,12.705)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (40.475,24.805;40.475,25.195)|(40.355,25.195;40.355,24.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (49.9,31.325;49.9,32.115)|(49.835,31.915;49.835,31.525)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (44.245,14.805;44.245,15.195)|(44.125,15.195;44.125,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (35.195,24.805;35.195,25.195)|(35.075,25.195;35.075,24.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (29.666,15.195;29.795,15.195)|(29.974,15.305;29.845,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (31.795,9.605;31.795,9.995)|(31.595,9.995;31.595,9.605)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (54.55,21.155;54.645,21.155)|(54.645,21.265;54.55,21.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (34.185,14.805;34.185,15.195)|(34.065,15.195;34.065,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (45.755,24.805;45.755,25.195)|(45.635,25.195;45.635,24.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (55.295,26.87;55.39,26.87)|(55.39,26.98;55.295,26.98)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (36.575,15.195;36.965,15.195)|(36.835,15.305;36.445,15.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (31.795,14.805;31.795,15.195)|(31.675,15.195;31.675,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (55,26.87;55.095,26.87)|(55.095,26.98;55,26.98)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (34.625,15.905;34.625,16.295)|(34.445,16.295;34.445,15.905)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (29.795,15.195;29.795,15.101)|(29.845,15.305;29.845,15.399)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (32.295,11.405;32.295,11.795)|(32.09,11.841;32.09,11.359)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.795,31.905;48.795,32.295)|(48.595,32.295;48.595,31.841)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (28.99,24.613;28.99,25.387)|(28.905,25.195;28.905,24.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.64,12.595;53.735,12.595)|(53.735,12.705;53.64,12.705)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (54.02,16.5;54.115,16.5)|(54.115,16.61;54.02,16.61)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.725,16.5;53.82,16.5)|(53.82,16.61;53.725,16.61)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (32.805,24.805;32.805,25.195)|(32.685,25.195;32.685,24.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (29.405,14.805;29.405,15.195)|(29.285,15.195;29.285,14.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (43.365,24.805;43.365,25.195)|(43.245,25.195;43.245,24.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (34.685,11.405;34.685,11.795)|(34.48,11.841;34.48,11.359)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (29.905,10.805;29.905,11.195)|(29.7,11.241;29.7,10.759)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.a'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.893,16.11;53.735,16.11)|(53.562,16.21;53.72,16.21)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.a'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.735,16.11;53.735,16.011)|(53.72,16.21;53.72,16.309)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (55,26.87;55.39,26.87)|(55.39,26.98;55,26.98)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (54.25,21.155;54.645,21.155)|(54.645,21.265;54.255,21.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (54.25,20.765;54.25,21.026)|(54.115,20.865;54.115,20.604)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (32.235,16.2;32.235,16.295)|(32.055,16.295;32.055,16.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (5.125,16.2;5.125,16.21)|(4.945,16.295;4.945,16.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (32.235,15.905;32.235,16)|(32.055,16;32.055,15.905)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (31.795,9.605;31.795,9.7)|(31.595,9.7;31.595,9.605)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.805,11.905;49.195,11.905)|(49.273,12.1;48.727,12.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (31.205,11.905;31.595,11.905)|(31.673,12.1;31.127,12.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (22.905,11.905;23.295,11.905)|(23.295,12.005;22.905,12.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (28.961,35.6;29.479,35.6)|(29.415,35.8;29.025,35.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (34.625,15.905;34.625,16)|(34.445,16;34.445,15.905)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (47.966,36.195;48.025,36.195)|(48.204,36.305;48.145,36.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (26.45,35.1;27.21,35.1)|(27.025,35.2;26.635,35.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (43.319,36.1;43.801,36.1)|(43.755,36.305;43.365,36.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (7.575,16.295;7.965,16.295)|(7.905,16.42;7.515,16.42)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (19.375,48.38;19.375,48.4)|(19.325,48.4;19.325,48.38)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.025,36.195;48.025,36.133)|(48.145,36.305;48.145,36.367)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (31.795,9.9;31.795,9.995)|(31.595,9.995;31.595,9.9)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (47.635,36.195;48.025,36.195)|(48.071,36.4;47.589,36.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2.875,44.305;2.875,44.695)|(2.825,44.695;2.825,44.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (40.005,11.905;40.395,11.905)|(40.473,12.1;39.927,12.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (45.709,36.1;46.191,36.1)|(46.145,36.305;45.755,36.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.845,48.38;14.855,48.38)|(14.855,48.4;12.845,48.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (38.955,35.695;39.645,35.695)|(39.691,35.9;38.909,35.9)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (17.295,48.38;18.935,48.38)|(18.935,48.4;17.295,48.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.455,48.38;12.455,48.679)|(12.405,48.475;12.405,48.38)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (34.625,16.2;34.625,16.295)|(34.445,16.295;34.445,16.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (40.429,35.6;40.911,35.6)|(40.865,35.805;40.475,35.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (19.325,48.38;19.375,48.38)|(19.375,48.4;19.325,48.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (16.859,35.6;17.341,35.6)|(17.295,35.805;16.905,35.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (22.859,35.6;23.341,35.6)|(23.295,35.805;22.905,35.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (23.217,11.905;23.295,11.905)|(23.373,12.1;23.295,12.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (42.855,35.695;43.245,35.695)|(43.291,35.9;42.809,35.9)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (28.895,35.195;29.285,35.195)|(29.331,35.4;28.849,35.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.72,16.5;54.115,16.5)|(54.115,16.61;53.725,16.61)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (23.735,35.195;24.125,35.195)|(24.171,35.4;23.689,35.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.795,31.905;48.795,32)|(48.595,32;48.595,31.905)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (13.355,35.195;13.745,35.195)|(13.791,35.4;13.309,35.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (12.239,35.1;12.721,35.1)|(12.675,35.305;12.285,35.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (48.795,32.2;48.795,32.295)|(48.595,32.295;48.595,32.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (16.565,35.195;16.955,35.195)|(17.001,35.4;16.519,35.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (14.809,35.1;15.291,35.1)|(15.245,35.305;14.855,35.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (42.809,35.1;43.291,35.1)|(43.245,35.305;42.855,35.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.345,12.595;53.74,12.595)|(53.735,12.705;53.345,12.705)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (38.909,35.1;39.691,35.1)|(39.645,35.305;38.955,35.305)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (5.125,15.82;5.125,16)|(4.945,16;4.945,15.905)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (21.855,27.99;21.855,28.38)|(21.675,28.395;21.675,28.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.a'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.898,16.11;53.735,16.11)|(53.64,16.21;53.725,16.21)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.a'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.735,16.11;53.735,16.01)|(53.725,16.21;53.725,16.31)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.345,12.595;53.735,12.595)|(53.735,12.705;53.345,12.705)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (19.289,27.275;20.031,27.275)|(19.855,27.39;19.465,27.39)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (55,26.87;55.046,26.87)|(55,27.075;54.954,27.075)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (55,26.87;55.39,26.87)|(55.39,26.98;55,26.98)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.725,16.5;53.771,16.5)|(53.725,16.705;53.679,16.705)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (14.509,21.56;15.251,21.56)|(15.075,21.675;14.685,21.675)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (54.255,21.155;54.645,21.155)|(54.645,21.265;54.255,21.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (39.209,13;39.691,13)|(39.645,13.205;39.255,13.205)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (54.255,21.155;54.301,21.155)|(54.255,21.36;54.209,21.36)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.725,16.21;53.725,16.5)|(53.64,16.692;53.64,16.21)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (54.255,20.765;54.255,21.022)|(54.115,20.865;54.115,20.608)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.725,16.5;54.115,16.5)|(54.115,16.61;53.725,16.61)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.725,16.61;53.725,16.705)|(53.64,16.705;53.64,16.418)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.345,12.595;53.391,12.595)|(53.345,12.8;53.299,12.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M5.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (27.3,2.9;27.3,11.1)|(27.2,11.1;27.2,2.9)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M5.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (54.255,20.765;54.255,20.96)|(54.23,20.96;54.23,20.556)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V1.a'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (31.575,31.625;31.575,31.815;31.955,31.815;31.955,31.625)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (26.165,23.685;26.165,23.875)|(25.965,23.875;25.965,23.685)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V2.a'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (49.535,33.405;49.535,33.595;49.735,33.595;49.735,33.405)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V2.a'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (5.225,9.705;5.225,9.895;5.595,9.895;5.595,9.705)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V2.a'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (18.955,16.005;18.955,16.195;19.185,16.195;19.185,16.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V2.a'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (11.305,26.005;11.305,26.195;11.585,26.195;11.585,26.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V2.a'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (31.155,15.405;31.155,15.595;31.515,15.595;31.515,15.405)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.455,15.405;10.455,15.595)|(10.255,15.595;10.255,15.405)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (39.355,35.405;39.355,35.595)|(39.245,35.595;39.245,35.405)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (5.635,48.405;5.635,48.595)|(5.445,48.595;5.445,48.405)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (5.905,48.2;5.905,48.375)|(5.825,48.58;5.825,48.405)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (5.905,48.375;6.043,48.375)|(5.825,48.405;5.687,48.405)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (29.185,16.005;29.185,16.195)|(29.125,16.195;29.125,16.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (45.585,32.705;45.585,32.895)|(45.475,32.895;45.475,32.705)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (5.195,48.375;5.385,48.375)|(5.445,48.405;5.255,48.405)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V2.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (31.575,15.405;31.575,15.595)|(31.515,15.595;31.515,15.405)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.629,16.11;53.635,16.11)|(53.831,16.21;53.825,16.21)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V3.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.635,16.11;53.635,16.099)|(53.825,16.21;53.825,16.221)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V4.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.629,16.11;53.635,16.11)|(53.831,16.21;53.825,16.21)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V4.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (53.635,16.11;53.635,16.099)|(53.825,16.21;53.825,16.221)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (27.9,3.5;27.9,12.53)|(26.6,12.53;26.6,3.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (26.329,12.53;26.6,12.53)|(28.171,13;27.9,13)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (52.5,12.53;52.5,11.366)|(52.64,13;52.64,14.164)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (45.5,12.53;52.5,12.53)|(51,13;43.929,13)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (27.9,12.53;34.9,12.53)|(36.471,13;27.9,13)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (52.64,27.205;56.255,27.205)|(57.75,27.275;52.64,27.275)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (26.6,12.53;26.6,12)|(27.9,13;27.9,13.53)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (36.7,12.53;43.7,12.53)|(45.271,13;35.129,13)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (51.069,12.53;52.5,12.53)|(54.071,13;52.64,13)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (19.6,12.53;26.6,12.53)|(25.1,13;18.029,13)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (10.8,12.53;17.8,12.53)|(19.371,13;9.229,13)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2,12.53;9,12.53)|(10.571,13;2,13)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (52.64,21.49;55.195,21.49)|(56.255,21.56;52.64,21.56)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>khn_biquad</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (52.64,16.835;54.445,16.835)|(55.195,16.905;52.64,16.905)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

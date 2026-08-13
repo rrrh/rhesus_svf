@@ -23,5 +23,13 @@ module tt_um_simple_test (
 
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, clk, rst_n, 1'b0};
+  (* keep *) wire dac_out;           // R-2R DAC analog output
+
+  r2r_dac_8bit u_dac (
+        .d0(ui_in[0]), .d1(ui_in[1]), .d2(ui_in[2]), .d3(ui_in[3]),
+        .d4(ui_in[4]), .d5(ui_in[5]), .d6(ui_in[6]), .d7(ui_in[7]),
+        .vout (dac_out)
+  );
+
 
 endmodule
