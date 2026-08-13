@@ -17,6 +17,12 @@ jobs:
         uses: TinyTapeout/tt-gds-action@ttihp26b
         with:
           pdk: ihp-sg13g2
+      - name: Upload LibreLane Run Artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: librelane-logs
+          path: runs/
 
   precheck:
     needs: gds

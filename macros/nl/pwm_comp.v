@@ -14,6 +14,11 @@ module pwm_comp (
     input  wire vinp,    // + input (SVF output)
     input  wire vinn,    // - input (ramp reference)
     output wire out      // high when vinp > vinn
+`ifdef USE_POWER_PINS
+    ,
+    inout vdd,
+    inout vss
+`endif
 );
     // Simulation data buses (written by parent via hier ref)
     reg [7:0] sim_data_in;   // SVF output (8-bit digital equivalent)
@@ -30,9 +35,11 @@ endmodule
 `else
 (* blackbox *)
 module pwm_comp (
-    input  wire vinp,
-    input  wire vinn,
-    output wire out
+    inout vdd,
+    inout vss,
+    input vinp,
+    input vinn,
+    output out
 );
 endmodule
 `endif

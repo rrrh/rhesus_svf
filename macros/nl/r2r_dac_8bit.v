@@ -1,27 +1,36 @@
-// 8-bit R-2R DAC (analog hard macro)
-// Scalar pin names (d0..d7) to match LEF for OpenROAD compatibility
-// Power (vdd/vss) connected via PDN, not RTL ports
+`timescale 1ns / 1ps
 
-`ifdef BEHAVIORAL_SIM
-//----------------------------------------------------------------------
-// Behavioral model: captures 8-bit digital input as sim_data_out[7:0].
-// Parent connects sim_data_out to downstream SVF via hierarchical ref.
-// vout drives MSB (d7) as a 1-bit approximation on the analog wire.
-//----------------------------------------------------------------------
 module r2r_dac_8bit (
-    input  wire d0, d1, d2, d3, d4, d5, d6, d7,
-    output wire vout
+    input  d0,
+    input  d1,
+    input  d2,
+    input  d3,
+    input  d4,
+    input  d5,
+    input  d6,
+    input  d7,
+    inout  vdd,
+    inout  vss,
+    output vout
 );
-    reg [7:0] sim_data_out;
-    always @* sim_data_out = {d7, d6, d5, d4, d3, d2, d1, d0};
-    assign vout = d7;
-endmodule
 
+`ifdef SIM
+    // Internal variable to represent the analog voltage in simulation.
+    real analog_voltage;
+    
+    // Nominal VDD for IHP SG13G2 is 1.2V
+    real vdd_voltage = 1.2; 
+
+    // Concatenate scalar inputs into an 8-bit bus for easy calculation
+    wire [7:0] d_bus = {d7, d6, d5, d4, d3, d2, d1, d0};
+
+    // Update the analog voltage calculation whenever any digital input changes
+    always @(d_bus) begin
+        analog_voltage = (d_bus / 256.0) * vdd_voltage;
+    end
 `else
-(* blackbox *)
-module r2r_dac_8bit (
-    input  wire d0, d1, d2, d3, d4, d5, d6, d7,
-    output wire vout
-);
-endmodule
+    // For OpenLane synthesis/routing, the analog output is left floating.
+    assign vout = 1'bz;
 `endif
+
+endmodule

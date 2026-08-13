@@ -26,6 +26,8 @@ VERILOG_SOURCES += $(PDK_ROOT)/ihp-sg13g2/libs.ref/sg13g2_stdcell/verilog/sg13g2
 
 # this gets copied in by the GDS action workflow
 VERILOG_SOURCES += $(PWD)/gate_level_netlist.v
+VERILOG_SOURCES += $(PWD)/../macros/nl/r2r_dac_8bit.v
+VERILOG_SOURCES += $(PWD)/../macros/nl/pwm_comp.v
 
 endif
 
