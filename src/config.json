@@ -53,7 +53,6 @@
     "u_ramp_dac vccd1 vssd1 vdd vss"
   ],
   "MAGIC_DRC_USE_GDS": false,
-  "MAGIC_DRC_USE_GDS": false,
   "PL_TARGET_DENSITY_PCT": 60,
   "CLOCK_PERIOD": 20,
   "PL_RESIZER_HOLD_SLACK_MARGIN": 0.1,
