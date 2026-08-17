@@ -11,6 +11,10 @@ module tt_um_simple_test (
     input  wire       rst_n     
 );
 
+    // Provide local wire declarations so Verilator linting passes cleanly
+    wire vccd1;
+    wire vssd1;
+
     wire dac_to_comp;
     wire ramp_to_comp;
     wire comp_out;
