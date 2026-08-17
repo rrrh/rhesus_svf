@@ -1,3 +1,4 @@
+/* verilator lint_off MODDUP */
 `default_nettype none
 `ifndef SYNTHESIS
 module pwm_comp (
@@ -10,3 +11,4 @@ module pwm_comp (
     assign out = (vinp > vinn);
 endmodule
 `endif
+/* verilator lint_on MODDUP */
