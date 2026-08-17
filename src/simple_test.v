@@ -8,7 +8,7 @@ module tt_um_simple_test (
     output wire [7:0] uio_oe,   
     input  wire       ena,      
     input  wire       clk,      
-    input  wire       rst_n      
+    input  wire       rst_n     
 );
 
     wire dac_to_comp;
@@ -28,7 +28,7 @@ module tt_um_simple_test (
     assign uio_out     = ramp_cnt;
     assign uio_oe      = ~ramp_cnt;
 
-    // Macro instantiations using standard power conditional blocks
+    // Macro instantiations with conditional power pins for LibreLane/OpenLane
     (* keep = 1 *)
     r2r_dac_8bit u_dac (
 `ifdef USE_POWER_PINS
