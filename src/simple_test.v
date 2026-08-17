@@ -8,20 +8,10 @@ module tt_um_simple_test (
     output wire [7:0] uio_oe,   
     input  wire       ena,      
     input  wire       clk,      
-    input  wire       rst_n     
-`ifdef USE_POWER_PINS
-    ,
+    input  wire       rst_n,     
     inout  wire       vccd1,
     inout  wire       vssd1
-`endif
 );
-
-    // If synthesis runs without power pins, create local nets so Yosys
-    // actually preserves the macro connections in the structural netlist!
-`ifndef USE_POWER_PINS
-    wire vccd1 = 1'b1;
-    wire vssd1 = 1'b0;
-`endif
 
     wire dac_to_comp;
     wire ramp_to_comp;
@@ -40,7 +30,7 @@ module tt_um_simple_test (
     assign uio_out     = ramp_cnt;
     assign uio_oe      = ~ramp_cnt;
 
-    // UNCONDITIONALLY connect power pins so Yosys never drops them
+    // Unconditional power bindings guarantee Yosys never drops them
     (* keep = 1 *)
     r2r_dac_8bit u_dac (
         .vdd(vccd1),
