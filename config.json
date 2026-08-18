@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "flow": "Classic",
+    "substituting_steps": {
+      "Checker.HoldViolations": null,
+      "Checker.SetupViolations": null,
+      "OpenROAD.RepairDesignPostGPL": null,
+      "OpenROAD.IRDropReport": null,
+      "odb.AddPDNObstructions": null,
+      "odb.RemovePDNObstructions": null
+    }
+  },
+  "MACROS": {
+    "r2r_dac_8bit": {
+      "instances": {
+        "u_ramp_dac": {
+          "location": [110.0, 10.88],
+          "orientation": "N"
+        },
+        "u_dac": {
+          "location": [39.0, 10.88],
+          "orientation": "N"
+        }
+      },
+      "gds": ["dir::../macros/gds/r2r_dac_8bit.gds"],
+      "lef": ["dir::../macros/lef/r2r_dac_8bit.lef"],
+      "nl": ["dir::../macros/nl/r2r_dac_8bit.v"],
+      "lib": {
+        "*": ["dir::../macros/lib/r2r_dac_8bit.lib"]
+      }
+    },
+    "pwm_comp": {
+      "instances": {
+        "u_comp": {
+          "location": [49.0, 76.16],
+          "orientation": "N"
+        }
+      },
+      "gds": ["dir::../macros/gds/pwm_comp.gds"],
+      "lef": ["dir::../macros/lef/pwm_comp.lef"],
+      "nl": ["dir::../macros/nl/pwm_comp.v"]
+    }
+  },
+  "VDD_NETS": ["VPWR"],
+  "GND_NETS": ["VGND"],
+  "PDN_VPITCH": 20,
+  "PDN_MACRO_LOWER_LAYER": "Metal3",
+  "PDN_MACRO_UPPER_LAYER": "Metal4",
+  "PDN_MACRO_CONNECTIONS": [
+    "u_dac VPWR VGND vdd vss",
+    "u_comp VPWR VGND vdd vss",
+    "u_ramp_dac VPWR VGND vdd vss"
+  ],
+  "MAGIC_DRC_USE_GDS": false,
+  "PL_TARGET_DENSITY_PCT": 60,
+  "CLOCK_PERIOD": 20,
+  "PL_RESIZER_HOLD_SLACK_MARGIN": 0.1,
+  "GRT_RESIZER_HOLD_SLACK_MARGIN": 0.05,
+  "PL_MACRO_HALO": [2.0, 2.0],
+  "MACRO_W": 54.0,
+  "MACRO_H": 60.0,
+  "RUN_LINTER": 1,
+  "LINTER_INCLUDE_PDK_MODELS": 1,
+  "CLOCK_PORT": "clk",
+  "RUN_KLAYOUT_XOR": 0,
+  "RUN_KLAYOUT_DRC": 0,
+  "DESIGN_REPAIR_BUFFER_OUTPUT_PORTS": 0,
+  "TOP_MARGIN_MULT": 1,
+  "BOTTOM_MARGIN_MULT": 1,
+  "LEFT_MARGIN_MULT": 6,
+  "RIGHT_MARGIN_MULT": 6,
+  "FP_SIZING": "absolute",
+  "GRT_ALLOW_CONGESTION": 1,
+  "FP_IO_HLENGTH": 2,
+  "FP_IO_VLENGTH": 2,
+  "FP_PDN_VPITCH": 38.87,
+  "RUN_CTS": 1,
+  "FP_PDN_MULTILAYER": 0,
+  "MAGIC_DEF_LABELS": 0,
+  "MAGIC_WRITE_LEF_PINONLY": 1,
+  "RUN_HEURISTIC_DIODE_INSERTION": 0,
+  "ERROR_ON_DISCONNECTED_PINS": false,
+  "ERROR_ON_PDN_VIOLATIONS": false,
+  "RUN_POST_CTS_RESIZER_TIMING": false,
+  "RUN_POST_GRT_DESIGN_REPAIR": false,
+  "RUN_POST_GRT_RESIZER_TIMING": false
+}
