@@ -41,15 +41,15 @@
       "nl": ["dir::../macros/nl/pwm_comp.v"]
     }
   },
-  "VDD_NETS": ["VPWR"],
-  "GND_NETS": ["VGND"],
+  "VDD_NETS": ["vccd1"],
+  "GND_NETS": ["vssd1"],
   "PDN_VPITCH": 20,
   "PDN_MACRO_LOWER_LAYER": "Metal3",
   "PDN_MACRO_UPPER_LAYER": "Metal4",
   "PDN_MACRO_CONNECTIONS": [
-    "u_dac VPWR VGND vdd vss",
-    "u_comp VPWR VGND vdd vss",
-    "u_ramp_dac VPWR VGND vdd vss"
+    "u_dac vccd1 vssd1 vdd vss",
+    "u_comp vccd1 vssd1 vdd vss",
+    "u_ramp_dac vccd1 vssd1 vdd vss"
   ],
   "MAGIC_DRC_USE_GDS": false,
   "PL_TARGET_DENSITY_PCT": 60,
