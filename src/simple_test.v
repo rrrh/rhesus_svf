@@ -10,7 +10,7 @@ module tt_um_simple_test (
     input  wire       clk,      
     input  wire       rst_n     
 `ifdef USE_POWER_PINS
-    , // DO NOT FORGET THIS COMMA
+    ,
     inout  wire       VPWR,
     inout  wire       VGND
 `endif
