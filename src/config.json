@@ -1,6 +1,14 @@
 {
   "meta": {
-    "flow": "Classic"
+    "flow": "Classic",
+    "substituting_steps": {
+      "Checker.HoldViolations": null,
+      "Checker.SetupViolations": null,
+      "OpenROAD.RepairDesignPostGPL": null,
+      "OpenROAD.IRDropReport": null,
+      "odb.AddPDNObstructions": null,
+      "odb.RemovePDNObstructions": null
+    }
   },
   "MACROS": {
     "r2r_dac_8bit": {
