@@ -47,4 +47,3 @@ MACRO r2r_dac_8bit
   END d7
 END r2r_dac_8bit
 END LIBRARY
-EOF

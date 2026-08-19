@@ -29,4 +29,3 @@ MACRO pwm_comp
   END out
 END pwm_comp
 END LIBRARY
-EOF
