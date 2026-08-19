@@ -32,7 +32,7 @@
     "pwm_comp": {
       "instances": {
         "u_comp": {
-          "location": [60.00, 76.16],
+          "location": [50.00, 76.16],
           "orientation": "N"
         }
       },
