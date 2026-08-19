@@ -1,14 +1,6 @@
 {
   "meta": {
-    "flow": "Classic",
-    "substituting_steps": {
-      "Checker.HoldViolations": null,
-      "Checker.SetupViolations": null,
-      "OpenROAD.RepairDesignPostGPL": null,
-      "OpenROAD.IRDropReport": null,
-      "odb.AddPDNObstructions": null,
-      "odb.RemovePDNObstructions": null
-    }
+    "flow": "Classic"
   },
   "MACROS": {
     "r2r_dac_8bit": {
@@ -41,45 +33,32 @@
       "nl": ["dir::../macros/nl/pwm_comp.v"]
     }
   },
-  "MACRO_PLACEMENT_CFG": "dir::macro_placement.cfg",
-  "VDD_NETS": ["VPWR"],
-  "GND_NETS": ["VGND"],
-  "PDN_VPITCH": 20,
-  "PDN_MACRO_LOWER_LAYER": "Metal3",
-  "PDN_MACRO_UPPER_LAYER": "Metal4",
-  "PDN_MACRO_CONNECTIONS": [
+  "VDD_NETS": ["vccd1"],
+  "GND_NETS": ["vssd1"],
+  "FP_PDN_MACRO_HOOKS": [
     "u_dac vccd1 vssd1 vdd vss",
     "u_comp vccd1 vssd1 vdd vss",
     "u_ramp_dac vccd1 vssd1 vdd vss"
   ],
+  "PDN_VPITCH": 20,
+  "PDN_MACRO_LOWER_LAYER": "Metal3",
+  "PDN_MACRO_UPPER_LAYER": "Metal4",
   "MAGIC_DRC_USE_GDS": false,
   "PL_TARGET_DENSITY_PCT": 60,
   "CLOCK_PERIOD": 20,
   "PL_RESIZER_HOLD_SLACK_MARGIN": 0.1,
   "GRT_RESIZER_HOLD_SLACK_MARGIN": 0.05,
   "PL_MACRO_HALO": [2.0, 2.0],
-  "MACRO_W": 54.0,
-  "MACRO_H": 60.0,
   "RUN_LINTER": 1,
   "LINTER_INCLUDE_PDK_MODELS": 1,
   "CLOCK_PORT": "clk",
   "RUN_KLAYOUT_XOR": 0,
   "RUN_KLAYOUT_DRC": 0,
   "DESIGN_REPAIR_BUFFER_OUTPUT_PORTS": 0,
-  "TOP_MARGIN_MULT": 1,
-  "BOTTOM_MARGIN_MULT": 1,
-  "LEFT_MARGIN_MULT": 6,
-  "RIGHT_MARGIN_MULT": 6,
   "FP_SIZING": "absolute",
   "GRT_ALLOW_CONGESTION": 1,
-  "FP_IO_HLENGTH": 2,
-  "FP_IO_VLENGTH": 2,
-  "FP_PDN_VPITCH": 38.87,
   "RUN_CTS": 1,
-  "FP_PDN_MULTILAYER": 0,
-  "MAGIC_DEF_LABELS": 0,
   "MAGIC_WRITE_LEF_PINONLY": 1,
-  "RUN_HEURISTIC_DIODE_INSERTION": 0,
   "ERROR_ON_DISCONNECTED_PINS": false,
   "ERROR_ON_PDN_VIOLATIONS": false,
   "RUN_POST_CTS_RESIZER_TIMING": false,
