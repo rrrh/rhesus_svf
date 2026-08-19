@@ -13,12 +13,12 @@
   "MACROS": {
     "r2r_dac_8bit": {
       "instances": {
-        "u_ramp_dac": {
-          "location": [95.20, 10.88],
+        "u_dac": {
+          "location": [2.72, 10.88],
           "orientation": "N"
         },
-        "u_dac": {
-          "location": [5.44, 10.88],
+        "u_ramp_dac": {
+          "location": [103.36, 10.88],
           "orientation": "N"
         }
       },
@@ -32,7 +32,7 @@
     "pwm_comp": {
       "instances": {
         "u_comp": {
-          "location": [50.00, 76.16],
+          "location": [59.84, 10.88],
           "orientation": "N"
         }
       },
