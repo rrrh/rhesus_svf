@@ -18,7 +18,7 @@
           "orientation": "N"
         },
         "u_ramp_dac": {
-          "location": [95.00, 10.88],
+          "location": [105.00, 10.88],
           "orientation": "N"
         }
       },
@@ -32,7 +32,7 @@
     "pwm_comp": {
       "instances": {
         "u_comp": {
-          "location": [50.00, 75.00],
+          "location": [62.00, 10.88],
           "orientation": "N"
         }
       },
@@ -45,10 +45,11 @@
   "GND_NETS": ["vssd1"],
   "PDN_MACRO_CONNECTIONS": [
     "u_dac vccd1 vssd1 vdd vss",
+    "u_comp vccd1 vssd1 vdd vss",
     "u_ramp_dac vccd1 vssd1 vdd vss"
   ],
-  "FP_PDN_VPITCH": 15.0,
-  "FP_PDN_HPITCH": 15.0,
+  "FP_PDN_VPITCH": 12.5,
+  "FP_PDN_HPITCH": 12.5,
   "MAGIC_DRC_USE_GDS": false,
   "PL_TARGET_DENSITY_PCT": 60,
   "CLOCK_PERIOD": 20,
