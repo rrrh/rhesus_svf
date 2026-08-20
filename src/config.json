@@ -13,28 +13,17 @@
   "MACROS": {
     "r2r_dac_8bit": {
       "instances": {
-        "u_dac": {
-          "location": [5.00, 10.88],
-          "orientation": "N"
-        },
-        "u_ramp_dac": {
-          "location": [105.00, 10.88],
-          "orientation": "N"
-        }
+        "u_dac": { "location": [5.00, 10.88], "orientation": "N" },
+        "u_ramp_dac": { "location": [105.00, 10.88], "orientation": "N" }
       },
       "gds": ["dir::../macros/gds/r2r_dac_8bit.gds"],
       "lef": ["dir::../macros/lef/r2r_dac_8bit.lef"],
       "nl": ["dir::../macros/nl/r2r_dac_8bit.v"],
-      "lib": {
-        "*": ["dir::../macros/lib/r2r_dac_8bit.lib"]
-      }
+      "lib": { "*": ["dir::../macros/lib/r2r_dac_8bit.lib"] }
     },
     "pwm_comp": {
       "instances": {
-        "u_comp": {
-          "location": [62.00, 10.88],
-          "orientation": "N"
-        }
+        "u_comp": { "location": [62.00, 10.88], "orientation": "N" }
       },
       "gds": ["dir::../macros/gds/pwm_comp.gds"],
       "lef": ["dir::../macros/lef/pwm_comp.lef"],
@@ -43,16 +32,6 @@
   },
   "VDD_NETS": ["vccd1"],
   "GND_NETS": ["vssd1"],
-  "PDN_MACRO_CONNECTIONS": [
-    "u_dac vccd1 vssd1 vdd vss",
-    "u_ramp_dac vccd1 vssd1 vdd vss"
-  ],
-  "FP_PDN_MACRO_HOOKS": [
-    "u_dac vccd1 vssd1 vdd vss",
-    "u_ramp_dac vccd1 vssd1 vdd vss"
-  ],
-  "FP_PDN_VPITCH": 15.0,
-  "FP_PDN_HPITCH": 15.0,
   "MAGIC_DRC_USE_GDS": false,
   "PL_TARGET_DENSITY_PCT": 60,
   "CLOCK_PERIOD": 20,

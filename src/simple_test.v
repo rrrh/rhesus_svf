@@ -14,6 +14,9 @@ module tt_um_simple_test (
     inout  wire       vssd1
 `endif
 );
+    wire vccd1_sig = 1'b1;
+    wire vssd1_sig = 1'b0;
+
     wire dac_to_comp;
     wire ramp_to_comp;
     wire comp_out;
@@ -29,7 +32,7 @@ module tt_um_simple_test (
     assign uio_out     = ramp_cnt;
     assign uio_oe      = ~ramp_cnt;
     (* keep = 1 *)
-    r2r_dac_8bit u_dac (
+    r2r_dac_8bit u_dac (.vdd(vccd1_sig), .vss(vssd1_sig), 
 `ifdef USE_POWER_PINS
         .vdd(vccd1),
         .vss(vssd1),
@@ -39,7 +42,7 @@ module tt_um_simple_test (
         .vout(dac_to_comp)
     );
     (* keep = 1 *)
-    r2r_dac_8bit u_ramp_dac (
+    r2r_dac_8bit u_ramp_dac (.vdd(vccd1_sig), .vss(vssd1_sig), 
 `ifdef USE_POWER_PINS
         .vdd(vccd1),
         .vss(vssd1),
@@ -49,7 +52,7 @@ module tt_um_simple_test (
         .vout(ramp_to_comp)
     );
     (* keep = 1 *)
-    pwm_comp u_comp (
+    pwm_comp u_comp (.vdd(vccd1_sig), .vss(vssd1_sig), 
 `ifdef USE_POWER_PINS
         .vdd(vccd1),
         .vss(vssd1),
