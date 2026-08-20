@@ -45,11 +45,10 @@
   "GND_NETS": ["vssd1"],
   "PDN_MACRO_CONNECTIONS": [
     "u_dac vccd1 vssd1 vdd vss",
-    "u_comp vccd1 vssd1 vdd vss",
     "u_ramp_dac vccd1 vssd1 vdd vss"
   ],
-  "FP_PDN_VPITCH": 12.4,
-  "FP_PDN_HPITCH": 12.4,
+  "FP_PDN_VPITCH": 15.0,
+  "FP_PDN_HPITCH": 15.0,
   "MAGIC_DRC_USE_GDS": false,
   "PL_TARGET_DENSITY_PCT": 60,
   "CLOCK_PERIOD": 20,
