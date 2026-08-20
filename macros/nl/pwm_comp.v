@@ -1,5 +1,9 @@
 (* blackbox *)
 module pwm_comp (
-    input vdd, input vss, input vinp, input vinn, output out
+    inout vdd,
+    inout vss,
+    input vinp,
+    input vinn,
+    output out
 );
 endmodule
