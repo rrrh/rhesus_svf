@@ -45,7 +45,6 @@
   "GND_NETS": ["vssd1"],
   "PDN_MACRO_CONNECTIONS": [
     "u_dac vccd1 vssd1 vdd vss",
-    "u_comp vccd1 vssd1 vdd vss",
     "u_ramp_dac vccd1 vssd1 vdd vss"
   ],
   "FP_PDN_VPITCH": 15.0,
