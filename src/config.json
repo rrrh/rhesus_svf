@@ -36,6 +36,7 @@
   "RT_MAX_LAYER": "TopMetal1",
   "FP_PDN_UPPER_LAYER": "TopMetal1",
   "FP_PDN_LOWER_LAYER": "Metal5",
+  "FP_PDN_MACRO_HOOKS": "u_comp vccd1 vssd1 vdd vss, u_dac vccd1 vssd1 vdd vss, u_ramp_dac vccd1 vssd1 vdd vss",
   "PL_TARGET_DENSITY_PCT": 60,
   "CLOCK_PERIOD": 20,
   "RUN_LINTER": 1,
